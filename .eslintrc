@@ -4,7 +4,7 @@
       "jest": true,
       "node": true
     },
-    "parser": "babel-eslint",
+   
     "extends": [
       "airbnb",
       "prettier",
@@ -13,8 +13,7 @@
       "prettier/standard"
     ],
     "plugins": [
-      "prettier",
-      "flowtype"
+      "prettier"
     ],
     "rules": {
       "prettier/prettier": "error",
@@ -29,4 +28,3 @@
       }
     }
   }
-  

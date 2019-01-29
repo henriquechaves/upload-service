@@ -16,14 +16,17 @@
     "multer": "^1.4.1"
   },
   "devDependencies": {
-    "eslint": "^5.12.1",
-    "eslint-config-airbnb": "^17.1.0",
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.15.0",
+    "eslint-config-airbnb": "^16.1.0",
     "eslint-config-prettier": "^2.9.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.15.0",
-    "eslint-plugin-jsx-a11y": "^6.2.0",
-    "eslint-plugin-react": "^7.12.4",
+    "eslint-import-resolver-webpack": "^0.10.0",
+    "eslint-plugin-flowtype": "^2.41.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-prettier": "^2.6.0",
-    "nodemon": "^1.18.9"
+    "eslint-plugin-react": "^7.5.1",
+    "nodemon": "^1.18.9",
+    "prettier": "^1.11.1"
   }
 }
