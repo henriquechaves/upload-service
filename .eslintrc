@@ -1,13 +1,32 @@
 {
-  "extends": "airbnb",
-  "rules": {
-    "one-var": 0,
-    "comma-dangle": 0,
-    "max-len": [0, 120, 4],
-    "indent": [2, 4],
-    "key-spacing": [2, {
-      "beforeColon": false,
-      "afterColon": true
-    }]
+    "env": {
+      "browser": true,
+      "jest": true,
+      "node": true
+    },
+    "parser": "babel-eslint",
+    "extends": [
+      "airbnb",
+      "prettier",
+      "prettier/flowtype",
+      "prettier/react",
+      "prettier/standard"
+    ],
+    "plugins": [
+      "prettier",
+      "flowtype"
+    ],
+    "rules": {
+      "prettier/prettier": "error",
+      "arrow-parens": 0,
+      "function-paren-newline": 0
+    },
+    "settings": {
+      "import/resolver": {
+        "webpack": {
+          "config": "webpack.config.js"
+        }
+      }
+    }
   }
-}
+  
