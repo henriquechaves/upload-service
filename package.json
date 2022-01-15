@@ -23,7 +23,7 @@
     "eslint-plugin-jest": "^21.2.0",
     "nodemon": "^1.18.9",
     "jest": "^20.0.4",
-    "shelljs": "^0.7.8",
+    "shelljs": "^0.8.5",
     "sinon": "^4.0.2",
     "supertest": "^3.0.0"
   }
